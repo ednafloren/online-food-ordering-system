@@ -67,9 +67,6 @@ error.contact='Contact should include numbers';
     <div className='form_container'>
     <div className="imgp">
 
-  
-      <img src="./logoo.png" alt="logo" className="img"></img>
-   {/* <h6>fast and yummy</h6> */}
       
  <h2>Sign Up</h2>
       </div> 

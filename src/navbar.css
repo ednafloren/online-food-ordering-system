@@ -60,7 +60,7 @@ input::placeholder{
     font-size: 20px;
 }
 .nav_link3.home:active{
-    color: blue;
+    color: rgb(235,75,6);
 }
 
 #btns{
@@ -109,7 +109,7 @@ a{
     
 }
 a:active{
-    color: blue;
+    color: rgb(235,75,6);
 }
 
 /* #us{

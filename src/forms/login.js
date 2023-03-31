@@ -44,9 +44,6 @@ export function LoginForm() {
  <div className='container'>
     <div className='form_container'>
     <div className="imgp">
-
-   
-      <img src="./logoo.png" alt="logo" className="img"></img>
   
  <h2>Log in</h2>
       </div> 
