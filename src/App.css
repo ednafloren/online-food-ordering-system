@@ -65,9 +65,10 @@ button:focus {
 
 
 
- form.error{
+ form.form-group.error{
   color: red;
   font-size: 40px;
+  text-align: left;
 }
 
 /* loginform */
@@ -110,7 +111,9 @@ form{
   margin-bottom: 0px;
   margin-top: 0px;
   padding: 10px;
-  /* background-color: rgb(1, 13, 44) */
+  background-color: black;
+  align-items:left ;
+  border: 1px solid rgb(234, 100, 28);
 }
 
   .imgp .img{
@@ -176,6 +179,7 @@ form{
 }
 form .error{
   color: red;
+  text-align: left;
 }
 
 p{
@@ -193,7 +197,7 @@ p a:hover{
 
 .form_container form .form-group label{
   
-  color: white;
+  color: black;
   float: left;
   
 }

@@ -27,11 +27,11 @@ export function LoginForm() {
     }else if(!/\S+@\S+\.\S+/.test(email)){
       error.email='Incorrect email format'
     } else{
-      error.email=''
+      error.email='';
     }
 
     if(!password) {
-      error.email='password is required'; }
+      error.password='Password is required'; }
 
  
     else{
