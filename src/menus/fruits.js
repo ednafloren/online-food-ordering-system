@@ -4,7 +4,7 @@ import React from "react"
 function Fruits(){
     return(
         <div>
-            <button><h2>Fruits</h2></button>
+            
             <div className="fruitscontainer">
                 <div className="fruitcolumn1">
                     <h2>Bananas</h2>

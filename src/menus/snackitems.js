@@ -4,7 +4,7 @@ import React from "react"
 function SnackItems(){
     return(
         <div>
-            <button id="subcategories"><h2>Snacks</h2></button>
+            
             <div className="snackscontainer">
                 <div className="snackcolumn1">
                     

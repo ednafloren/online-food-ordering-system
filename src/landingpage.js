@@ -5,6 +5,7 @@ import { useState } from "react";
 import { Link } from 'react-router-dom';
 
 // import {SearchIcon} from '@mui/icons-material/Search';
+import "./navbar.js"
 
 
 
@@ -28,6 +29,12 @@ function LandingPage(){
      <div className="landing">
          <img src={currentImage} alt='lunch'/>
          <h2 className='welcome'>Welcome to Fast and Yummy</h2>
+           
+         <div className='search_bar' >
+           {/* <SearchIcon/> */}
+          {/* <input className="search" placeholder="Search"type="text" /> */}
+          
+        </div>
          <div className='topic'>
          <h3>"Taste It!!"</h3>
          <h4>We're open 24/7</h4>

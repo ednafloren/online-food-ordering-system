@@ -4,7 +4,7 @@ import React from "react";
 function KatogoItems(){
     return(
         <div>
-            <button><h2>katogo</h2></button>
+            
             <div className="katogocontainer">
 
                <div className="katogocolumn1">

@@ -4,7 +4,7 @@ import React from "react"
 function Grains(){
     return(
         <div>
-            <button><h2>Grains</h2></button>
+            
             <div className="grainscontainer">
                 <div className="grainscolumn1">
                     <h2>Rice</h2>

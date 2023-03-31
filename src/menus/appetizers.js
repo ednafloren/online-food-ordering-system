@@ -4,7 +4,7 @@ import React from "react";
 function Appetizers(){
     return(
         <div>
-            <button><h2>Appetizers</h2></button>
+            
             <div className="appetizercontainer">
              
              <div className="appetizercolumn1">
