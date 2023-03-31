@@ -68,10 +68,29 @@ img{
     position: absolute;
     top: 40%;
      left: 20%; 
-   color:black ;
+   color:white ;
     transform: translate(-50% -50%);
     font-size: 65px;
 }
+
+
+.topic{
+    position: absolute;
+    top: 55%;
+    left: 45%; 
+   color:black ;
+    transform: translate(-50% -50%);
+    
+}
+
+.topic h3{
+    font-size: 38px;
+}
+
+.topic h4{
+    font-size: 20px;
+}
+
 .p1{
     color:rgb(1, 13, 44);
     ;
@@ -119,8 +138,8 @@ img{
     ;
     background-color:black ;
     position: absolute;
-    top: 75%;
-    left: 45%;
+    top: 80%;
+    left: 46%;
     transform: translate(-50% -50%);
     font-size: 22px;
     height: 40px;
