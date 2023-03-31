@@ -148,7 +148,7 @@ img{
     color:whitesmoke;
     background-color:rgb(235, 75, 6);
     position: absolute;
-    top: 80%;
+    top: 65%;
     left: 46%;
     transform: translate(-50% -50%);
     font-size: 22px;
@@ -156,6 +156,7 @@ img{
     border-radius: 8px;
     border: none;
     text-align: center;
+    padding: 2px 4px;
 }
 .orderbtn:hover{
     background-color: orangered;

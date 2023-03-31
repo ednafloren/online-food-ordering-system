@@ -30,16 +30,6 @@ function LandingPage(){
          <img src={currentImage} alt='lunch'/>
          <h2 className='welcome'>Welcome to Fast and Yummy</h2>
            
-         <div className='search_bar' >
-           {/* <SearchIcon/> */}
-          {/* <input className="search" placeholder="Search"type="text" /> */}
-          
-        </div>
-         <div className='topic'>
-         <h3>"Taste It!!"</h3>
-         <h4>We're open 24/7</h4>
-         </div> 
-         
        <Link to="menu"> <button className='orderbtn'>ORDER NOW</button></Link>
      
 </div>
