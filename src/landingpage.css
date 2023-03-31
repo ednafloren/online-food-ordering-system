@@ -4,7 +4,16 @@ h1{
 
 .landing{
     align-content: center;
+    background-color: black;
+    overflow: hidden;
+    height: 600px;
+    width: 100vw;
 }
+.landing img{
+    object-fit: cover;
+    opacity: 0.7;
+}
+
 #name{
     color: darkorange;
 }
@@ -67,10 +76,11 @@ img{
 .welcome{
     position: absolute;
     top: 40%;
-     left: 20%; 
-   color:black ;
+    left: 20%; 
+    color:white ;
     transform: translate(-50% -50%);
     font-size: 65px;
+    /* font-weight: 400; */
 }
 .p1{
     color:rgb(1, 13, 44);
@@ -116,15 +126,14 @@ img{
 
 .orderbtn{
     color:whitesmoke;
-    ;
-    background-color:black ;
+    background-color:rgb(235, 75, 6);
     position: absolute;
     top: 75%;
     left: 45%;
     transform: translate(-50% -50%);
     font-size: 22px;
     height: 40px;
-    
+    border-radius: 8px;
     border: none;
     text-align: center;
 }

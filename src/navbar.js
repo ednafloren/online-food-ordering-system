@@ -12,7 +12,7 @@ function Navbar() {
     return (
       
      <div className='overall_nav'><div className='rrr'>
-       <img src='logoo.png' className='my_logo' alt='logo'></img>
+       <img src='./img/logoo.png' className='my_logo' alt='logo'></img>
 <h4>Fast <br></br>And <br></br>Yummy</h4></div>
       <div className='buttonlink'>
         <div className='nav_link3'>

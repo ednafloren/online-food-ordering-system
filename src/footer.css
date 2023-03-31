@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: auto auto auto;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 0px;
     background-color: rgb(31,42,64);
     color: white;
     text-align: left;

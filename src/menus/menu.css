@@ -1,33 +1,31 @@
-/* .drinkscontainer {
-  background-color:rgb(4,13,44);
-  margin-left: 0px;
-  position:absolute;
-}  */
+
 
 .menucontainer{
   display: grid;
   grid-template-columns: auto auto auto;
-  font-size: 25px;
+  font-size: 18px;
   margin-left: 0px;
   color: rgb(230, 233, 244);
-  background-color: rgb(69, 9, 9);
+  background-color:black;
   margin-bottom: 2px;
   padding-bottom: 50px;
   padding-top: 60px;
 
 }
-.menucolumn1{
-  /* border: 2px solid rgb(231,74,43); */
+  .menucolumn1{
+  border: 2px solid rgb(235,75,6);
   border-radius: 12px;
   margin: 60px;
-  padding-bottom: 50px;
-  background-color: black;
+  padding-right:8px; 
+  background-color:black;
   color: white;
-}
-.menucolumn1 h2{
+  
+ } 
+
+/* .menucolumn1 h2{
   color: white;
   font-weight: 600;
-}
+} */
 
 .menucontainer img{
   width: 300px;
@@ -42,11 +40,12 @@
   display: grid;
   grid-template-columns: auto auto;
   font-size: 25px;
-  margin-left: 200px;
+  /* margin-left: 200px; */
   color: white;
+  background-color: black;
 }
 .snackscontainer img{
-  width: 400px;
+  width: 300px;
   height: 300px;
   border-radius: 5px;
 
@@ -54,7 +53,7 @@
 .snackscontainer button{
   border: 1px solid white;
   border-radius: 5px;
-  background-color: orange;
+  background-color:rgb(235,75,6);
   font-size: 30px;
   color: black;
 }
@@ -63,8 +62,9 @@
   display: grid;
   grid-template-columns: auto auto ;
   font-size: 25px;
-  margin-left: 200px;
+  /* margin-left: 200px; */
   color: white;
+  background-color: black;
 }
 .katogocontainer img{
   width: 400px;
@@ -75,7 +75,7 @@
 .katogocontainer button{
   border: 1px solid white;
   border-radius: 5px;
-  background-color: orange;
+  background-color:rgb(235,75,6);
   font-size: 30px;
   color: black;
   margin-bottom: 50px;
@@ -85,8 +85,9 @@
   display: grid;
   grid-template-columns: auto auto ;
   font-size: 25px;
-  margin-left: 200px;
+  /* margin-left: 200px; */
   color: white;
+  background-color: black;
 }
 .teacontainer img{
   width: 400px;
@@ -97,7 +98,7 @@
 .teacontainer button{
   border: 1px solid white;
   border-radius: 5px;
-  background-color: orange;
+  background-color: rgb(235,75,6);
   font-size: 30px;
   color: black;
 }
@@ -107,11 +108,11 @@
   grid-template-columns: auto auto ;
   font-size: 25px;
   /* margin-left: 200px; */
-  color:rgb(1, 13, 44);
-  background-color: rgb(1, 13, 44);
+  color:white;
+  background-color: black;
 }
 .drinkscontainer img{
-  width: 200px;
+  width: 300px;
   height: 300px;
   border-radius: 5px;
 
@@ -119,7 +120,7 @@
 .drinkscontainer button{
   border: 1px solid white;
   border-radius: 5px;
-  background-color: orange;
+  background-color: rgb(235,75,6);
   font-size: 30px;
   color: black;
   
@@ -143,8 +144,9 @@
   display: grid;
   grid-template-columns: auto auto ;
   font-size: 25px;
-  margin-left: 200px;
+  /* margin-left: 200px; */
   color: white;
+  background-color: black;
 
 
 }
@@ -157,7 +159,7 @@
 .soupscontainer button{
   border: 1px solid white;
   border-radius: 5px;
-  background-color: orange;
+  background-color:rgb(235,75,6);
   font-size: 30px;
   color: black;
 }
@@ -166,8 +168,9 @@
   display: grid;
   grid-template-columns: auto auto ;
   font-size: 25px;
-  margin-left: 200px;
+  /* margin-left: 200px; */
   color: white;
+  background-color: black;
 }
 .grainscontainer img{
   width: 400px;
@@ -177,7 +180,7 @@
 .grainscontainer button{
   border: 1px solid white;
   border-radius: 5px;
-  background-color: orange;
+  background-color: rgb(231,74,43);
   font-size: 30px;
   color: black;
 }
@@ -186,8 +189,9 @@
   display: grid;
   grid-template-columns: auto auto ;
   font-size: 25px;
-  margin-left: 200px;
+  /* margin-left: 200px; */
   color: white;
+  background-color: black;
 }
 .fruitscontainer img{
   width: 400px;
@@ -198,7 +202,7 @@
 .fruitscontainer button{
   border: 1px solid white;
   border-radius: 5px;
-  background-color: orange;
+  background-color:rgb(231,74,43);
   font-size: 30px;
   color: black;
   margin-bottom: 50px;
@@ -210,9 +214,9 @@
   font-size: 25px;
   margin-left: 0px;
   color: rgb(230, 233, 244);
-  background-color: rgb(4,13,44);
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   padding-top: 20px;
+  background-color: black;
 }
 
 .winescontainer img{
@@ -222,31 +226,37 @@
 }
 
 .winescontainer button{
-  border: 1px solid white;
+  
   border-radius: 5px;
-  background-color: orange;
+  background-color:rgb(231,74,43);
   font-size: 30px;
   color: black;
+  
 }
 
 .dessertscontainer{
   display: grid;
   grid-template-columns: auto auto auto;
-  font-size: 25px;
-  margin-left: 100px;
+  font-size: 20px;
+  margin-left: 40px;
+  /* margin-left: 100px; */
   color: white;
+  background-color: black;
+  margin-bottom:55px ;
 }
 
 .dessertscontainer img{
   width: 350px;
   height: 300px;
   border-radius: 5px;
+  margin-left: 30px;
+  margin-bottom: 70px;
 }
 
 .dessertscontainer button{
   border: 1px solid white;
   border-radius: 5px;
-  background-color: orange;
+  background-color: rgb(231,74,43);
   font-size: 30px;
   color: black;
 }
@@ -255,11 +265,12 @@
   display: grid;
   grid-template-columns: auto auto auto;
   font-size: 25px;
-  margin-left: 80px;
+  /* margin-left: 80px; */
   color: white;
+  background-color: black;
 }
 h2{
-  color: aliceblue;
+  color: white;
 }
 
 .appetizercontainer img{
@@ -271,7 +282,7 @@ h2{
 .appetizercontainer button{
   border: 1px solid white;
   border-radius: 5px;
-  background-color: orange;
+  background-color: rgb(235,75,6);
   font-size: 30px;
   color: black;
   margin-bottom: 50px;
@@ -291,7 +302,7 @@ h1{
 button{
   background-color:white;
   border-radius: 5px;
-  border:2px solid orange;
+  border: none;
   /* font-size: 15px; */
   font-family: Georgia, 'Times New Roman', Times, serif;
   color:black;
@@ -299,17 +310,91 @@ button{
 
 } 
 
-/* .breakfast{
+
+
+
+ .dinnerContainer{
+  
+  background-color: black;
+}
+.lunchContainer{
+  background-color: black;
+}
+.breakfastContainer{
+  background-color: black;
+ }
+
+ .subcategoriescontainer{
   display: grid;
-  grid-template-columns: auto auto ;
-  font-size: 25px;
-  /* margin-left: 200px; */
-  /* color:rgb(1, 13, 44);
-  background-color: rgb(235, 65, 8);
-} */
-/* .breakfast img{
-  width: 400px;
+  grid-template-columns: auto auto;
+  margin-left: 0px;
+  color: rgb(230, 233, 244);
+  background-color:black;
+  margin-bottom: 12px;
+  padding-bottom: 50px;
+  padding-top: 60px;
+  
+  
+
+}
+.subcategoriescontainer h2{
+  font-size: 18px;
+  
+  
+
+}
+.subcategoriescontainer img{
+  width: 300px;
   height: 300px;
   border-radius: 5px;
+}
 
-} */ 
+ .subcategoriescolumn1{
+  /* border: 2px solid rgb(235,75,6); */
+  border-radius: 12px;
+  margin: 20px;
+  padding-bottom: 50px;
+  background-color:black;
+  color: white;
+ }
+
+ .lunchCategories{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* font-size: 15px; */
+  margin-left: 0px;
+  color: rgb(230, 233, 244);
+  background-color:black;
+  margin-bottom: 2px;
+  padding-bottom: 50px;
+  padding-top: 60px;
+ }
+ .lunchCategories img{
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.dinnerCategories{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* font-size: 15px; */
+  margin-left: 0px;
+  color: rgb(230, 233, 244);
+  background-color:black;
+  margin-bottom: 2px;
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+.dinnerCategories img{
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.katogocontainer p{
+  color: white;
+}
+.winescontainer p{
+  color:white
+}

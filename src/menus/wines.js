@@ -4,7 +4,7 @@ import React from "react";
 function Wines(){
     return(
         <div>
-            <button><h2>Wines</h2></button>
+          
             <div className="winescontainer">
             
               <div className="winescolumn1">
@@ -14,14 +14,14 @@ function Wines(){
                 <button>Order</button>
               </div>
 
-              <div className="winescolumn2">
+              <div className="winescolumn1">
                 <h2>Red Wines</h2>
                 <img src="./images/red wines.jpg" alt="Red wines"/>
                 <p>Price: $100</p>
                 <button>Order</button>
               </div>
 
-             <div className="winescolumn3">
+             <div className="winescolumn1">
                 <h2>Rose Wines</h2>
                 <img src="./images/rose wines.jpg" alt="Rose wines"/>
                 <p>Price: $100</p>

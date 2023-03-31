@@ -4,7 +4,7 @@ import React from "react"
 function Soups(){
     return(
         <div>
-            <button><h3>Soups</h3></button>
+            
             <div className="soupscontainer">
                 <div className="soupscolumn1">
                     <h3>chicken soup</h3>

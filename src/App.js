@@ -14,7 +14,19 @@ import { NoPage } from "./nopage";
 import { Lunch } from './menus/lunch';
 import{Breakfast} from './menus/breakfast';
 import{Dinner} from './menus/dinner'
-import './App.css';
+import './App.css'
+import TeaItems from './menus/teaitems';
+import SnackItems from './menus/snackitems';
+import Drinks from './menus/drinkitems';
+import KatogoItems from './menus/katogoitems';
+import Soups from './menus/soups';
+import Grains from './menus/grains';
+import Fruits from './menus/fruits';
+import Wines from './menus/wines';
+import Desserts from './menus/desserts';
+import Appetizers from './menus/appetizers';
+
+
 
 
 function App() {
@@ -29,9 +41,20 @@ function App() {
           <Route path="register" element={ <RegisterForm/>} />
           <Route path="menu" element={[<Navbar/>,<Menu/>,<Footer/>]} /> 
           <Route path="about" element={<About/>} /> 
-          <Route path="lunch" element={<Lunch/>} /> 
-          <Route path="breakfast" element={<Breakfast/>} /> 
-          <Route path="dinner" element={<Dinner/>} /> 
+          <Route path="lunch" element={[<Navbar/>,<Lunch/>,<Footer/>]} /> 
+          <Route path="breakfast" element={[<Navbar/>,<Breakfast/>,<Footer/>]} /> 
+          <Route path="dinner" element={[<Navbar/>,<Dinner/>,<Footer/>]} /> 
+          <Route path="teaitems" element={[<Navbar/>,<TeaItems/>,<Footer/>]}/>
+          <Route path='snackitems' element={[<Navbar/>,<SnackItems/>,<Footer/>]}/>
+          <Route path='katogoitems' element={[<Navbar/>,<KatogoItems/>,<Footer/>]}/>
+          <Route path='drinkitems' element={[<Navbar/>,<Drinks/>,<Footer/>]}/>
+          <Route path="soups" element={[<Navbar/>,<Soups/>,<Footer/>]}/>
+          <Route path="grains" element={[<Navbar/>,<Grains/>,<Footer/>]}/>
+          <Route path="fruits" element={[<Navbar/>,<Fruits/>,<Footer/>]}/>
+          <Route path="wines" element={[<Navbar/>,<Wines/>,<Footer/>]}/>
+          <Route path="desserts" element={[<Navbar/>,<Desserts/>,<Footer/>]}/>
+          <Route path="appetizers" element={[<Navbar/>,<Appetizers/>,<Footer/>]}/>
+
           <Route path="*" element={<NoPage />} />
         {/* </Route> */}
       </Routes>
