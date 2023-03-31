@@ -5,7 +5,7 @@ import Footer from './footer';
 import LandingPage from './landingpage';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { RegisterForm} from './forms/register';
-
+import Chart from './Chart/chart';
 import {LoginForm} from './forms/login';
 // import { Layout } from './layout';  
 import {Menu} from './menus/menu';
@@ -54,7 +54,7 @@ function App() {
           <Route path="wines" element={[<Navbar/>,<Wines/>,<Footer/>]}/>
           <Route path="desserts" element={[<Navbar/>,<Desserts/>,<Footer/>]}/>
           <Route path="appetizers" element={[<Navbar/>,<Appetizers/>,<Footer/>]}/>
-
+          <Route path="chart" element={<Chart/>}/>
           <Route path="*" element={<NoPage />} />
         {/* </Route> */}
       </Routes>

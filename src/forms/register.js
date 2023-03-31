@@ -21,7 +21,9 @@ export function RegisterForm(){
 
   const Validate=()=>{
     const error={};
-    if(name.length>12) {
+    if(!name) {
+      error.name='Name is required'; }
+    else if(name.length>12) {
       error.name='name should below 12 letters'; 
 
     }
@@ -38,9 +40,12 @@ export function RegisterForm(){
       error.email=''
     }
 
-    if(!contact.length===10) {
-      error.contact='Contact is incorrect'; 
+    if(!contact) {
+      error.contact='Password is required'; }
 
+
+    else if(!contact.length===10) {
+      error.contact='Contact is incorrect'; 
 
     }
     else if(isNaN(contact)){
@@ -67,9 +72,6 @@ error.contact='Contact should include numbers';
     <div className='form_container'>
     <div className="imgp">
 
-  
-      <img src="./logoo.png" alt="logo" className="img"></img>
-   {/* <h6>fast and yummy</h6> */}
       
  <h2>Sign Up</h2>
       </div> 

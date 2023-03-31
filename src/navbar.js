@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 // import { Link } from 'react-router-dom';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
  //import {Link} from 'react-router-dom';
 import "./navbar.css";
 // import SearchIcon from '@mui/icons-material/Search';
@@ -32,7 +32,7 @@ function Navbar() {
 
         <div className='nav_link2'>
           
-        <Link to="/about" className='home'>About</Link> 
+        <Link to="/chart" className='home'>Chart</Link> 
         </div>
 
        <button id='btns'><Link to="/login">LogIn</Link></button>
